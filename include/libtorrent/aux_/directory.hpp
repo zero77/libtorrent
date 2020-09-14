@@ -36,6 +36,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 #include <string>
 #include "libtorrent/error_code.hpp"
+#include "libtorrent/config.hpp"
 
 #ifdef TORRENT_WINDOWS
 // windows part

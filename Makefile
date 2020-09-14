@@ -309,6 +309,7 @@ SOURCES = \
   cpuid.cpp                       \
   crc32c.cpp                      \
   create_torrent.cpp              \
+  directory.cpp                   \
   disabled_disk_io.cpp            \
   disk_buffer_holder.cpp          \
   disk_buffer_pool.cpp            \
@@ -322,7 +323,6 @@ SOURCES = \
   error_code.cpp                  \
   escape_string.cpp               \
   ffs.cpp                         \
-  file.cpp                        \
   file_progress.cpp               \
   file_storage.cpp                \
   file_view_pool.cpp              \
@@ -452,7 +452,6 @@ HEADERS = \
   error.hpp                    \
   error_code.hpp               \
   extensions.hpp               \
-  file.hpp                     \
   file_storage.hpp             \
   fingerprint.hpp              \
   flags.hpp                    \
