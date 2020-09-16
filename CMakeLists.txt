@@ -33,7 +33,6 @@ set(libtorrent_include_files
 	copy_ptr
 	crc32c
 	create_torrent
-	directory
 	deadline_timer
 	debug
 	disk_buffer_holder
